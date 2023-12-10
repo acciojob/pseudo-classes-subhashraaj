@@ -1,1 +1,37 @@
-/*  your css code here. If applicable */
+:root{
+	background: rgb(135, 206, 235);
+	:first-child{
+		background: black;
+		margin:0px;
+		padding:0px;
+	}
+	:nth-child(2){
+
+		background:transparent;
+	}
+	:nth-child(3){
+		background:transparent;
+	}
+	:last-child{
+		background:transparent;
+		
+	}
+}
+#first-child{
+	color:white;
+}
+#second-child{
+	padding-top:10px
+}
+#third-child{
+	padding-top:10px
+}
+#last-child{
+	padding-top:10px;
+	color:red;
+}
+.list{
+	width:50%;
+	padding:10px;
+	font-size:22px;
+}
